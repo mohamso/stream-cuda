@@ -149,7 +149,7 @@ int main(int argc, char **argv) {
   print_row_elem("Max time |\n", 7);
   print_separator();
 
-  for (auto& kernel_time: timer_map) {
+  for (const auto& kernel_time: timer_map) {
     auto min_max = std::minmax_element(kernel_time.second.begin()+1, kernel_time.second.end());
     real avg_time = std::accumulate(kernel_time.second.begin()+1, kernel_time.second.end(), 0.0) / num_iters;
     real bw = 1e-9 * size_map[kernel_time.first] / (*min_max.first);
