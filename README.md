@@ -17,7 +17,7 @@ The two input to the code is number of iterations and block size.
 The recommended block size for Kepler is 192 and 64 for Pascal.
 
 # STREAM Triad Benchmark Results
-On this page you will find a collection of STREAM Triad results from different CUDA devices.
+Below is a collection of STREAM Triad results from different CUDA devices.
 These results are useful for example in connection with performance modeling.
 All experiments conducted with ECC turned on.
 
