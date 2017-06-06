@@ -24,8 +24,6 @@ The recommended block size for Kepler is 192 and 64 for Pascal.
 A global block size of 1024 works well for both architectures.
 
 # STREAM Triad Benchmark Results
-![GitHub Logo](/img/cuda_stream_benchmark.png)
-Format: ![Alt Text](url)
 Below is a collection of STREAM Triad results from different CUDA devices.
 These results are useful for example in connection with performance modeling.
 All experiments conducted with ECC turned on.
