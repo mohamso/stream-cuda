@@ -1,5 +1,5 @@
 # STREAM CUDA
-I have decided to make my CUDA implementation of the famous STREAM benchmark suite[https://www.cs.virginia.edu/stream/]
+I have decided to make my CUDA implementation of the famous STREAM benchmark [suite](https://www.cs.virginia.edu/stream/)
 publicly available. The code was first implemented during my PhD in December 2013 and updated a year later.
 
 ### Compile and Build ###
