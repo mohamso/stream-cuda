@@ -19,7 +19,7 @@ include(CheckCSourceRuns)
 find_package(CUDA REQUIRED)
 
 set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} "-std=c++11 -O3 -gencode arch=compute_35,code=sm_35
- -gencode arch=compute_61,code=sm_61 -Xcompiler -funroll-loops")
+ -gencode arch=compute_60,code=sm_60 -Xcompiler -funroll-loops")
 
 include_directories(include)
 file(GLOB SOURCES "src/*.cu")
