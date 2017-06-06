@@ -13,6 +13,7 @@ The code can be compiled and built as follows:
 
 ### Run ###
 ![CUDA STREAM Output](/img/cuda_stream_benchmark.png)
+
 The code can be executed as follows:
 
     ../bin/stream-cuda <number-of-iterations> <block-size>
